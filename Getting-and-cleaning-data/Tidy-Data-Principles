@@ -1,0 +1,48 @@
+ ## Defination of Data 
+ 
+    Data are values of quantitative and qualitative variables, belonging to a set of items.
+    Data classified as Raw data and Processed data.
+      1. Raw Data -  * Original source of data
+                     * Hard for analysis
+                     * Includes processing for 1 or more time.
+      2. Processed
+         Data     -  * Data ready for analysis
+                     * Processing may include subsetting,transforming,merging,etc.
+                     * There may be standards for processing.
+                     * All processing steps must be recorded.
+
+ ## Tidy Data
+ 
+                ### 4 must things to have going from Raw data to Tidy Data
+                
+                    *  The Raw Data
+                    *  The Tidy Data
+                    *  Code book(Metadata) describing each variables and its values in Tidy Data.
+                    *  An explicit and exact reciepe to have when going from Raw to Tidy Data.
+
+ ## Principles of Tidy Data
+              
+                    *  Each and only one variable in one column.
+                    *  Each different observation of variable in different column.
+                    *  1 table for each kind of variable.
+                    *  If multiple tables include a column to link them.
+                    
+ ### Additional Tips
+                 
+                    *  Include a row at top with variable names
+                    *  Make variable names human readable.
+                    *  Data saved in one file per table. 
+                    
+ ## About codebook
+            
+                    *  Information about the data in raw data (variables and units).
+                    *  Information about summary choices
+                    *  Study Design - The expeimental setup on how data was collected.
+
+ ## The Instruction List -- A Rscript or other format file that has codes to extract the tidy/processed data                             from the raw data exactly in same format.
+ 
+                    *  Input is Raw Data
+                    *  Output is Tidy Data
+                    *  There are no parameters to fix by user
+                    *  If use another software then write exact steps and software used.
+                    
